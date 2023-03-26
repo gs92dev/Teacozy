@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(87, 84, 81);
+}
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  font-size: large;
+}
+a {
+  font-size: 1.5rem;
+  color: azure;
+}
+.mission {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/img-mission-background.webp');
+  width: 1200px;
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4px;
+  margin: auto;
+  display: flex;
+}
+.container--mission {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  width: 1200px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.tea-month {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  color: aliceblue;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+}
+.cozy {
+  font-size: 1.5rem;
+}
+
+.images--month img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.images--month {
+  color: aliceblue;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 10px;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.location {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/img-locations-background.jpg');
+  width: 1200px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+.location h2 {
+  margin-top: 200px;
+}
+.location--cards {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1200px;
+  justify-content: center;
+}
+.p--locations {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: center;
+  background-color: black;
+}
+footer {
+  color: aliceblue;
+  background-color: black;
+  height: 250px;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
